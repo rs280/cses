@@ -37,11 +37,11 @@ int main()
         }
         cout << arr1.size() << endl;
         for (int i=0; i<arr1.size(); i++)
-            cout << ele << " ";
+            cout << arr1[i] << " ";
         cout << endl;
         cout << arr2.size() << endl;
         for (int i=0; i<arr2.size(); i++)
-            cout << ele << " ";
+            cout << arr2[i] << " ";
     }
     return 0;
 }
